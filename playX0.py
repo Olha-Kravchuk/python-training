@@ -70,4 +70,5 @@ def tic_tac_toe():
 
         current_player = "0" if current_player == "X" else "X"
 
-tic_tac_toe()
+# if __name__ == "__main__":
+#     tic_tac_toe()

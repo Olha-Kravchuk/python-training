@@ -74,5 +74,5 @@ def main():
 
     print(f"Game over! Your final balance is ${balance}")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
