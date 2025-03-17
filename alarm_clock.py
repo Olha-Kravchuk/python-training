@@ -4,7 +4,7 @@ import pygame
 
 def set_alarm(alarm_time):
     print(f"Alarm set for {alarm_time}")
-    sound_file = "my_music.mp3"
+    sound_file = "oll_data/my_music.mp3"
     is_running = True
 
     while is_running:
