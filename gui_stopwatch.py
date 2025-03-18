@@ -71,8 +71,8 @@ class Stopwatch(QWidget):
         self.time = self.time.addMSecs(10)
         self.time_label.setText(self.format_time(self.time))
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    stopwatch = Stopwatch()
-    stopwatch.show()
-    sys.exit(app.exec())
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     stopwatch = Stopwatch()
+#     stopwatch.show()
+#     sys.exit(app.exec())
